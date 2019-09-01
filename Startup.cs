@@ -38,7 +38,9 @@ namespace Supermarket.API
             });
 
             services.AddScoped<ICategoryRespository, CategoryRepository>();
+            services.AddScoped<IProductRepository, ProductRepository>();
             services.AddScoped<ICategoryService, CategoryService>();
+            services.AddScoped<IProductService, ProductService>();
 
             services.AddAutoMapper(typeof(Startup));
 

@@ -12,3 +12,17 @@ C:\Users\tswitala\source\repos\src\Supermarket.API\bin\Debug\netcoreapp2.1\Super
 C:\Users\tswitala\source\repos\src\Supermarket.API\obj\Debug\netcoreapp2.1\Supermarket.API.RazorTargetAssemblyInfo.cache
 C:\Users\tswitala\source\repos\src\Supermarket.API\obj\Debug\netcoreapp2.1\Supermarket.API.dll
 C:\Users\tswitala\source\repos\src\Supermarket.API\obj\Debug\netcoreapp2.1\Supermarket.API.pdb
+C:\Users\Tommy\Documents\GitHub\asp-net.core\bin\Debug\netcoreapp2.1\Supermarket.API.deps.json
+C:\Users\Tommy\Documents\GitHub\asp-net.core\bin\Debug\netcoreapp2.1\Supermarket.API.runtimeconfig.json
+C:\Users\Tommy\Documents\GitHub\asp-net.core\bin\Debug\netcoreapp2.1\Supermarket.API.runtimeconfig.dev.json
+C:\Users\Tommy\Documents\GitHub\asp-net.core\bin\Debug\netcoreapp2.1\Supermarket.API.dll
+C:\Users\Tommy\Documents\GitHub\asp-net.core\bin\Debug\netcoreapp2.1\Supermarket.API.pdb
+C:\Users\Tommy\Documents\GitHub\asp-net.core\obj\Debug\netcoreapp2.1\Supermarket.API.csprojAssemblyReference.cache
+C:\Users\Tommy\Documents\GitHub\asp-net.core\obj\Debug\netcoreapp2.1\Supermarket.API.csproj.CoreCompileInputs.cache
+C:\Users\Tommy\Documents\GitHub\asp-net.core\obj\Debug\netcoreapp2.1\Supermarket.API.RazorAssemblyInfo.cache
+C:\Users\Tommy\Documents\GitHub\asp-net.core\obj\Debug\netcoreapp2.1\Supermarket.API.RazorAssemblyInfo.cs
+C:\Users\Tommy\Documents\GitHub\asp-net.core\obj\Debug\netcoreapp2.1\Supermarket.API.AssemblyInfoInputs.cache
+C:\Users\Tommy\Documents\GitHub\asp-net.core\obj\Debug\netcoreapp2.1\Supermarket.API.AssemblyInfo.cs
+C:\Users\Tommy\Documents\GitHub\asp-net.core\obj\Debug\netcoreapp2.1\Supermarket.API.RazorTargetAssemblyInfo.cache
+C:\Users\Tommy\Documents\GitHub\asp-net.core\obj\Debug\netcoreapp2.1\Supermarket.API.dll
+C:\Users\Tommy\Documents\GitHub\asp-net.core\obj\Debug\netcoreapp2.1\Supermarket.API.pdb

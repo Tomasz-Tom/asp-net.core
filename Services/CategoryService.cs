@@ -23,19 +23,61 @@ namespace Supermarket.API.Services
             return await _categoryRespository.ListAsync();
         }
 
-        public async Task<SaveCategoryResponse> SaveAsync(Category category)
+        public async Task<CategoryResponse> SaveAsync(Category category)
         {
             try
             {
                 await _categoryRespository.AddAsync(category);
                 await _unitOfWork.CompleteAsync();
 
-                return new SaveCategoryResponse(category);
+                return new CategoryResponse(category);
             }
             catch (Exception ex)
             {
                 //Do som logging stuff
-                return new SaveCategoryResponse($"An error ccured when saving the category: {ex.Message}");
+                return new CategoryResponse($"An error ccured when saving the category: {ex.Message}");
+            }
+        }
+        public async Task<CategoryResponse> UpdateAsync(int id, Category category)
+        {
+            var existingCategory = await _categoryRespository.FindByIdAsync(id);
+
+            if (existingCategory == null)
+                return new CategoryResponse("Category not found.");
+
+            existingCategory.Name = category.Name;
+
+            try
+            {
+                _categoryRespository.Update(existingCategory);
+                await _unitOfWork.CompleteAsync();
+
+                return new CategoryResponse(existingCategory);
+            }
+            catch (Exception ex)
+            {
+                // Do some logging stuff
+                return new CategoryResponse($"An error occurred when updating the category: {ex.Message}");
+            }
+        }
+        public async Task<CategoryResponse> DeleteAsync(int id)
+        {
+            var existingCategory = await _categoryRespository.FindByIdAsync(id);
+
+            if (existingCategory == null)
+                return new CategoryResponse("Category not found.");
+
+            try
+            {
+                _categoryRespository.Remove(existingCategory);
+                await _unitOfWork.CompleteAsync();
+
+                return new CategoryResponse(existingCategory);
+            }
+            catch (Exception ex)
+            {
+                // Do some logging stuff
+                return new CategoryResponse($"An error occurred when deleting the category: {ex.Message}");
             }
         }
     }

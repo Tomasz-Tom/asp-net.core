@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tswitala\\source\\repos\\src\\Supermarket.API\\Supermarket.API.csproj": {}
+    "C:\\Users\\Tommy\\Documents\\GitHub\\asp-net.core\\Supermarket.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tswitala\\source\\repos\\src\\Supermarket.API\\Supermarket.API.csproj": {
+    "C:\\Users\\Tommy\\Documents\\GitHub\\asp-net.core\\Supermarket.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tswitala\\source\\repos\\src\\Supermarket.API\\Supermarket.API.csproj",
+        "projectUniqueName": "C:\\Users\\Tommy\\Documents\\GitHub\\asp-net.core\\Supermarket.API.csproj",
         "projectName": "Supermarket.API",
-        "projectPath": "C:\\Users\\tswitala\\source\\repos\\src\\Supermarket.API\\Supermarket.API.csproj",
-        "packagesPath": "C:\\Users\\tswitala\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tswitala\\source\\repos\\src\\Supermarket.API\\obj\\",
+        "projectPath": "C:\\Users\\Tommy\\Documents\\GitHub\\asp-net.core\\Supermarket.API.csproj",
+        "packagesPath": "C:\\Users\\Tommy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tommy\\Documents\\GitHub\\asp-net.core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\tswitala\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Tommy\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
